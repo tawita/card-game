@@ -5,7 +5,7 @@ import WordCard from './CharacterCard';
 class App extends Component {
   render() {
     return (
-    <div className="activeCard">
+    <div>
     <WordCard value="hello"/>
     </div>
     );
