@@ -19,7 +19,7 @@ export default class TawitaCharacter extends Component{
         }
       }
     render(){
-        let className = `card ${this.state.active ? 'activeCard' : ''}`
+        let className = `card ${this.state.active ? 'coloreiei' : ''}`
         return(
             <div className={className} onClick={this.activate}>
                 {this.props.value}
