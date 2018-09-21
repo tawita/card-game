@@ -39,6 +39,7 @@ export default class TawitaAsk extends Component {
                     )
                 }
                 <p>Make it Correct.</p>
+                <p>Hint: My faculty is...</p>
                 <p>Round : {this.state.attemt}</p>
                 <p>{this.state.completed? "you win" : ""}</p>
                 

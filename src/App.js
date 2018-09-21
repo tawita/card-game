@@ -4,7 +4,7 @@ import WordCard from './WordCard';
 import TawitaAsk from './TawitaAsk';
 
 const word = "HELLO";
-const Tawita = "Computer"
+const Tawita = "ENGINEER"
 class App extends Component {
   render() {
     return (
